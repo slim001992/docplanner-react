@@ -1,38 +1,515 @@
-.App {
+.App{
+ /* margin: 0px 250px; */
+}
+
+li{
+ list-style:none
+}
+
+.drop-list{
+ display:none;
+ position :absolute;  
+}
+.it3{
+ position: relative;
+}
+
+.it3:hover .drop-list{
+padding : 10px;
+ display: flex;
+ flex-direction: column;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ background-color: white;
+ min-width: 200px;
+ min-height: 200px;
+ left: -85px;
+ font-size: 0.8em;
+ line-height: 2.5em;
+ font-size: 15px;
+ font-family: sans-serif;
+ text-decoration: none;
+ color: #ababab;
+}
+
+.list{
+  z-index: 1;
+ justify-content: space-around;
+ display: flex;
+ height: 40px;
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
+ padding: 20px;
+ background-color: white;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding-top: 40px;
+}
+.logo-docplanner {
+  margin-left: 170px;
+  width: 268px;
+  height: 33px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style:none
+}
+
+a{
+   font-size: 15px;
+   font-family: sans-serif;
+   text-decoration: none;
+   color: #ababab;
+} 
+
+.it1{
+  margin-left: 150px;
+  color: #00b39b;
+}
+.it3{
+ margin-right: 90px;
+}
+
+
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+
+
+a:hover {
+  color:  #00b39b;
+}
+
+#glo{
+  margin-left: 204px;
+  margin-right: 204px;
+  padding: 15px 20px 20px;
+  width:100%;
+  height: 70px;
+  display: flex;
+
+}
+
+
+#glo div {
+  width:100%;
+  height: 70px;
+  
+}
+
+.menu{
+  margin-right: 0px ;
+  padding: 19.950px 0px;
+  display: flex;
+ 
+}
+
+#me.menu {
+  width: 253.297px;
+  height: 29.975px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  
+}
+
+
+#me.menu div {
+ 
+  width: 77.22px;
+  height: 30px;
+
+}
+
+.sticky{
+  display: flex;
+}
+
+h1{
+   margin: 30px;
+   display: flex;
+   justify-content: center;
+   color: #00b39b;
+}
+p{
+  color: #ababab;
+   padding: 10px;
+   font-size: 1em;
+   line-height: 2em;
+}
+.lead__logo{
+   margin: 0px 467.500px;
+   width: 40px;
+   height: 39px;
+   justify-content: center;
+}
+.section1{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 60px 204px;
+
+  justify-content: center;
+  
+}
+
+.colu{
+   display: flex;
+}
+.section2{
+  margin: 60px 204px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+.imgpa{
+  position: absolute;
+  max-width: 90%;
+  height: auto;
+ right: -125px;
+ margin-bottom: 30px;
+
+}
+.h1pa{
+  font-weight: 600;
+  margin: 0px 0px 26px 0px;
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+
+}
+
+.sele{
+width: 150px;
+height: 40px;
+
+}
+
+.patients{
+
+  line-height: 1.75em;
+  padding: 20px 40px 20px 40px;
+  box-sizing: border-box;
+  width: 457.500px;
+  height: 391.750px;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+ background-color:  #00b39b;
+ border: 2px solid ;
+ border-radius: 10px;
+
+  overflow: hidden;
+  position: relative;
+}
+.choose{
+  display: flex;
+}
+.doctors{
+  position: relative;
+  overflow: hidden;
+  line-height: 1.75em;
+  padding: 20px 40px 20px 40px;
+  box-sizing: border-box;
+  width: 457.500px;
+  height: 391.750px;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color:  #3d83df;
+ border: 2px solid;
+ border-radius: 10px;
+
+}
+.h2pa{
+  font-weight: 100;
+  font-size: .875em;
+}
+.h1s3{
+  margin: 0em;
+  font-size: 1.6em;
+  font-weight: 50;
+  letter-spacing: 3px;
+
+  
+}
+.h1s5{
+  margin: 0em;
+  font-size: 1.6em;
+  font-weight: 50;
+  letter-spacing: 3px;
+  line-height: 1.8em;
+  
+}
+.ps5{
+  margin: 0em;
+  font-size: 0.9em;
+  font-weight: 50;
+  letter-spacing: 0px;
+  line-height: 1.5em;
+  
+}
+.section3{
+  font-weight: 100;
+font-family: sans-serif;
+  margin: 40px 204px 50px;
+  display: flex;
+}
+.logos{
+  letter-spacing: 3px;
+  display: flex;
+}
+.tex{
+  display: flex;
+  width: 33%;
+  float: left;
+}
+.logo{
+ 
+  display: flex;
+  width: 67%;
+
+  justify-content: space-between;
+  letter-spacing: 3px;
+}
+svg{
+  padding-left: 15px;
+  width: 135px;
+  height: 20px;
+  fill:#ababab; ;
+}
+svg:hover{
+  fill: #00b39b ;
+}
+
+
+.section5{
+
+ 
+  line-height: 5em;
+  width: 460px;
+  height: 172.391px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-family: sans-serif;
+  margin: 100px 461.5px 60px;
+  flex-direction: column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.boutto1 {
+  width: 130px;
+  background-color: #3d83df;
+  border: none;
   color: white;
+  padding: 10px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.boutto1 {
+  background-color: #3d83df ;
+  color: white; 
+  border: 2px solid white;
+  border-radius: 10px ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boutto1:hover {
+  background-color: #023dfd ;
+  color: white; 
+}
+/* .Warsaw{
+
+
+} */
+.conbo{
+  display: flex;
+
+  width: 271px;
+  padding: 20px;
+  justify-content: space-between;
+
+ }
+
+.section4
+{
+  display: flex;
+
+  background-color: #daf7f6;
+  width: 100%;
+  height: 560px;
+  background-image: url(https://www.docplanner.com/img/logo.png);
+  background-repeat: no-repeat;
+  background-position:45px 250px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.droit{
+  font-family: sans-serif;
+  display: flex;
+flex-direction: column;
+width: 50%;
+
+}
+.doroitpa{
+  padding-left: 195px;
+  font-weight: normal;
+  font-size: 0.9em;
+  word-spacing: -0.05rem;
+  margin: 1.6em 4em 1.6em 0;
+  min-width:415px ;
+  color: #ababab;
+  
+}
+ .back{
+     position: absolute;
+
+ } 
+ 
+.droittitre{
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 2.1em;
+  padding: 20px 0px 0px 100px;
+  color: #00ccb1;
+}
+
+.gauche{
+  width: 50%;
+  display: flex;
+}
+
+.tigauche{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #00b39b;
+    line-height: 1.5em; 
+}
+.pg{
+    text-justify: center;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  font-weight: 100;
+  color: #747474;
+  line-height: 1.5em; 
+}
+
+.item1,.item2,.item3,.item4{
+  text-align: center;
+  width: 228.75px;
+  height: 230px;
+    background-color: white;
+    border: white solid ;
+    border-radius: 5px;
+    box-shadow:  3px 3px 3px 3px rgba(0,0,0,0.1);
+}
+.item1{
+  margin-top: 45px;
+  margin-right: 20px;
+}
+.item3{
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.item2{
+  margin-top: 20px;
+margin-right: 20px;
+}
+.item4{
+margin-bottom: 60px;
+}
+
+.imgc{
+  margin-top: 20px;
+}
+.imgg{
+  margin-top: 35px;
+}
+
+.Warsaw{
+   position: relative;
+}
+
+.boxshadow {
+  margin : 10px;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.boxshadow:hover {
+  box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
+}
+.section6{
+  padding: 20px ;
+  margin: 60px 204px;
+  box-sizing: border-box;
+  display: flex;
+
+  width: 100%;
+ 
+}
+.logos{
+  display: flex;
+
+}
+.logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 0.1em;
+}
+
+.images{
+  display: flex;
+  
+}
+
+.images {
+  display: flex;
+ margin: 20px 120px;
+justify-content: center;
+
+  
+}
+
+.images :first-child {
+    align-self: center;
+}
+
+
+.foot{
+  box-shadow: 4px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 0.8em;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-family: sans-serif;
+  margin: 70px 0px 0px 0px;
+  flex-direction: column;
+  text-align: center;
+
+}
+.afoot{
+  text-decoration: initial;
+}
+.pfoot{
+  line-height: 1.5em;  
 }
